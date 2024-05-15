@@ -1,0 +1,16 @@
+package com.user.service.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class RequiredResponse {
+    private UserModel userModel;
+    private Post Post;
+    private Notification notification;
+}
